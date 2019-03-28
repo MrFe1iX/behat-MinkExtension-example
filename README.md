@@ -1,6 +1,7 @@
 # Behat 3.5 + MinkExtension 2.3
 ---
 Example of how to run Behat on Windows
+---
 ##Composer.json
 ```json
 {
