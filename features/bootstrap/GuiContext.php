@@ -16,5 +16,12 @@ require_once 'PHPUnit/Framework/Assert/Functions.php';
 
 class GuiContext extends MinkContext
 {
+    /**
+     * @Given пожождали :arg1 секунд
+     */
+    public function pozhozhdaliSekund($arg1)
+    {
+        $this->getSession()->wait($arg1);
+    }
 
 }

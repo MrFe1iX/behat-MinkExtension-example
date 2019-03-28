@@ -7,7 +7,13 @@ default:
                 # chrome
                 wd_host: "http://127.0.0.1:4444/wd/hub"
                 # chrome
-                capabilities: { "browserName": "chrome", "browser": "chrome", "version":  "70", 'chrome': {'switches':['--no-sandbox']}}
+                capabilities:
+                    chrome:
+                        switches:
+#                            - "--headless"
+#                            - "--disable-gpu"
+#                            - "--window-size=max"
+#                            - "--no-sandbox"
             base_url: 'http://google.com/'
             # chrome
             browser_name: chrome
