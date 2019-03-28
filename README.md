@@ -2,7 +2,7 @@
 ---
 Example of how to run Behat on Windows
 ---
-##Composer.json
+## Composer.json
 ```json
 {
 	
@@ -16,14 +16,14 @@ Example of how to run Behat on Windows
 }
 ```
 
-##How run SeleniumServer
+## How run SeleniumServer
 Selenion path: 
 >behat/lib
 ```bash
 java -jar selenium-server-standalone-3.141.59.jar
 ```
 
-##behat.yml
+## behat.yml
 ```yaml
 default:
     extensions:
@@ -46,7 +46,7 @@ default:
                 - Behat\MinkExtension\Context\MinkContext
 ```
 
-##How run *.feature
+## How run *.feature
 ```bash
 php behat feature\test
 ```
